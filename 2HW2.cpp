@@ -89,7 +89,7 @@ public:
 	}
 	double tot_pr() const
 	{
-		double pr_vat=0.0;
+		double pr_vat;
 		if (vat == 'A')
 			pr_vat = 0.23;
 		if (vat == 'B')
