@@ -153,7 +153,7 @@ public:
 		str << "------------------VAT invoice------------------\n";
 		str << "===============================================\n";
 		str << "Seller: " << inv.nip_s << "       Buyer: " << inv.nip_b;
-		str << "\n\n               c.j. VAT   il.    net   total" << endl;;
+		str << "\n\n                c.j. VAT   il.    net   total" << endl;;
 		int k = 0;
 		for (const Item& item_ : inv.item) {
 			k++;;
